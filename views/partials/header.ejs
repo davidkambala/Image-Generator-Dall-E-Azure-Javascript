@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision-Gen</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="bar">
+        <h1>Image Generator</h1>
+        <!--<ul class="listbar">
+            <li><a href="/"><img src="images/calendar.png" alt="calendar icon" height="30px"></a></li>
+            <li><a href="/work"><img src="images/briefcase.png" alt="briefcase icon" height="30px"></a></li>
+        </ul> -->
+    </div>
+    <div class="today">
+        <h1> <%= (new Date()).toString().split(' ').splice(1,3).join(' '); %></h1>
+    </div>
+    <main>

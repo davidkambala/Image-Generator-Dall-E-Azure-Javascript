@@ -1,0 +1,121 @@
+.bar {
+    /*background-color: black;*/
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    /*background-color: cornflowerblue;*/
+    background-image: url("galaxy.png");
+    background-size: cover;
+}
+.listbar li {
+    display: inline;
+    text-align: center;
+}
+.today {
+    display: flex;
+    justify-content: center;
+    /*background-color: #485163;*/
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 2rem;
+}
+.cbox:checked + label {
+    text-decoration: line-through;
+}
+.container {
+    /*background-color: cornflowerblue;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main {
+    background-color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 1cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Preahvihear', sans-serif;
+    padding: 20px;
+    color: #521912;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.generated {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.generated img{
+    border: none;
+    border-radius: 1cm;
+    padding-bottom: 10px;
+}
+.footer {
+    background-color: #521912;
+    text-align: center;
+    font-family: 'Preahvihear', sans-serif;
+    color: whitesmoke;
+    width: 100%;
+    margin: 0;
+}
+button {
+    font-family: 'Preahvihear', sans-serif;
+    padding: 5px 25px 5px 25px;
+    font-size: 2rem;
+    background-color: #521912;
+    border-radius: 1cm;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
+}
+input {
+    font-family: 'Preahvihear', sans-serif;
+    border-style: solid;
+    border-color: #521912;
+    font-size: 2rem;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+    color: #521912;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+li {
+    padding-right: 10px;
+}
+.bar h1 {
+    font-family: 'Handjet', cursive;
+    font-size: 2rem;
+}
+@media(max-width:1050px){
+    .today, .todo-list, input{
+        font-size: 1rem;
+    }
+    .container h1 {
+        font-size: smaller;
+    }
+    button{
+        padding: 0px 20px 0px 20px;
+    }
+}
